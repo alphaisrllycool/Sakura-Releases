@@ -1,0 +1,15 @@
+{
+  "version": "0.2.0",
+  "notes": "SakuraLauncher 0.2.0 beta for local testing. Windows fixes, verified launcher downloads and opt-in update confirmation. Native Windows x64 and macOS Intel builds from source 8d2e4e0. Public Apple/Windows code signing, native version-to-version update acceptance and Apple Silicon validation remain pending. Back up important worlds before testing.",
+  "pub_date": "2026-10-15T13:12:58.854Z",
+  "platforms": {
+    "darwin-x86_64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUTGkweTdFWUJlMk1CbVJ5VndkOU1FRTFlcmJGb3gvTmxPZDV5amcyUEVkWEtiMFora25ZMUFQL2dqajBxQlJWUitlUWNpNGRzdDl2MTluRmZhOVZrSmdpRm1uTHdmblFZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyMDM0OTM1CWZpbGU6U2FrdXJhTGF1bmNoZXIuYXBwLnRhci5negl2ZXJzaW9uOjAuMi4wCnJqN1N2bUk0TktuRUdMekRXTkgycDZTZ3h0MzhTWE1zYVNLaTZFNHkwUzhzRmJMZ2dTd2t4T3ZITUV6VnJ3eDN5ZERKcDlZeklJY3FtZWZMcVZ0eERnPT0K",
+      "url": "https://github.com/alphaisrllycool/Sakura-Releases/releases/download/launcher-v0.2.0/SakuraLauncher.app.tar.gz"
+    },
+    "windows-x86_64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUTGkweTdFWUJlMkViMU9iOS9ZUTk5Ly9hOHB0aXZidDBzK3p0cnlVT2tmVkxSL2dPMCtsdWxpa3ljSmFZOGNNdnU3NzlpUGc0elVQMEhwTStRLytNS2NFbThRdFdKZGdZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyMDM1MDYzCWZpbGU6U2FrdXJhTGF1bmNoZXJfMC4yLjBfeDY0LXNldHVwLmV4ZQl2ZXJzaW9uOjAuMi4wCjlQVjlrNkNSR2RjeHhBYUZhN0hDS0ZJNDA2aTFScGVsQmMwUFUrTGlTYjZIRGY1bTlDb1FZSHJGKzIzM2t2eGlNV01yZXpvTFhmaVh1NFNrbm9zNUN3PT0K",
+      "url": "https://github.com/alphaisrllycool/Sakura-Releases/releases/download/launcher-v0.2.0/SakuraLauncher_0.2.0_x64-setup.exe"
+    }
+  }
+}
