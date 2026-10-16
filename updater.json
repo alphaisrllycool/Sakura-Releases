@@ -1,15 +1,15 @@
 {
-  "version": "0.2.0",
-  "notes": "SakuraLauncher 0.2.0 beta for local testing. Windows fixes, verified launcher downloads and opt-in update confirmation. Native Windows x64 and macOS Intel builds from source 8d2e4e0. Public Apple/Windows code signing, native version-to-version update acceptance and Apple Silicon validation remain pending. Back up important worlds before testing.",
-  "pub_date": "2026-10-15T13:12:58.854Z",
+  "version": "0.2.1",
+  "notes": "SakuraLauncher 0.2.1 beta\n\n- Adds 103 pinned stable Java Edition versions from official provider metadata, including exact Minecraft 1.8.\n- Adds bulk installation in Library with download/space preview, real progress, cancellation and explicit resume/retry.\n- Adds legacy resource layouts and arguments, Java 17 compatibility for 1.17/1.17.1, and Windows native DLL extraction.\n- Preserves existing instances, worlds and profiles. Games are not launched automatically after bulk installation.\n\nExpanded versions remain experimental: resolution is tested for Intel macOS and Windows x64; native startup was checked on Intel macOS for 1.0, 1.6.4, 1.7.2, 1.8 and 1.17.1. This does not certify gameplay for every version. Apple Silicon, public OS code signing and full version-to-version update acceptance remain pending.\n\nThe launcher asks before downloading an update. Close active Minecraft sessions before applying it.\n",
+  "pub_date": "2026-10-16T14:39:35.398Z",
   "platforms": {
     "darwin-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUTGkweTdFWUJlMk1CbVJ5VndkOU1FRTFlcmJGb3gvTmxPZDV5amcyUEVkWEtiMFora25ZMUFQL2dqajBxQlJWUitlUWNpNGRzdDl2MTluRmZhOVZrSmdpRm1uTHdmblFZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyMDM0OTM1CWZpbGU6U2FrdXJhTGF1bmNoZXIuYXBwLnRhci5negl2ZXJzaW9uOjAuMi4wCnJqN1N2bUk0TktuRUdMekRXTkgycDZTZ3h0MzhTWE1zYVNLaTZFNHkwUzhzRmJMZ2dTd2t4T3ZITUV6VnJ3eDN5ZERKcDlZeklJY3FtZWZMcVZ0eERnPT0K",
-      "url": "https://github.com/alphaisrllycool/Sakura-Releases/releases/download/launcher-v0.2.0/SakuraLauncher.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUTGkweTdFWUJlMkI5U0RMTEhJQ21sc3FveDBZMXJralVLL2RvM1JNdk1DZm9kTjAwUVVQVDlKYjJYUVA4bWpXVHMwUkVlbjQzT0NDZHVORy9OUDVRemVobDNYUFlLUndRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyMTYwNjc3CWZpbGU6U2FrdXJhTGF1bmNoZXIuYXBwLnRhci5negl2ZXJzaW9uOjAuMi4xCnY0WXhrSU0za2tzWFBHdTVhQitrVkxydHVYOHZERi8xd0lPa3I3TmtJS3pGeGZaQk9NVUkxZklKZ2FhRlpZYTZuakM2VHhDRTlqa096OUdEemkxakNnPT0K",
+      "url": "https://github.com/alphaisrllycool/Sakura-Releases/releases/download/launcher-v0.2.1/SakuraLauncher.app.tar.gz"
     },
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUTGkweTdFWUJlMkViMU9iOS9ZUTk5Ly9hOHB0aXZidDBzK3p0cnlVT2tmVkxSL2dPMCtsdWxpa3ljSmFZOGNNdnU3NzlpUGc0elVQMEhwTStRLytNS2NFbThRdFdKZGdZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyMDM1MDYzCWZpbGU6U2FrdXJhTGF1bmNoZXJfMC4yLjBfeDY0LXNldHVwLmV4ZQl2ZXJzaW9uOjAuMi4wCjlQVjlrNkNSR2RjeHhBYUZhN0hDS0ZJNDA2aTFScGVsQmMwUFUrTGlTYjZIRGY1bTlDb1FZSHJGKzIzM2t2eGlNV01yZXpvTFhmaVh1NFNrbm9zNUN3PT0K",
-      "url": "https://github.com/alphaisrllycool/Sakura-Releases/releases/download/launcher-v0.2.0/SakuraLauncher_0.2.0_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUTGkweTdFWUJlMkFTWm04U1ZQYUYyQzlVSzBFdUFsRTJDUEVNWEljSkNjMWpoV2dHalloOXUxYmh4M1d0bTNXdmxjZ3BhK2RzUFI5NzB5dFUwZ0hka3RyVS90OHNYQlFzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyMTYwNTUxCWZpbGU6U2FrdXJhTGF1bmNoZXJfMC4yLjFfeDY0LXNldHVwLmV4ZQl2ZXJzaW9uOjAuMi4xCkxKa3BLK0htUnFLVFJjV1UyQ2c3NVpETXc0VkQ1aW50VU5EMnd3dEk4MWFRY0NjOXVnaVhTTmpTQVBFZFZZZFhqaVpFamhjZGpGcmljdW1sOUNIc0JRPT0K",
+      "url": "https://github.com/alphaisrllycool/Sakura-Releases/releases/download/launcher-v0.2.1/SakuraLauncher_0.2.1_x64-setup.exe"
     }
   }
 }
