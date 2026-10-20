@@ -1,15 +1,15 @@
 {
-  "version": "0.2.2",
-  "notes": "SakuraLauncher 0.2.2 beta\n\nFixes Windows startup paths for all Java Edition versions. Extended Windows paths are converted at the Java boundary for classpaths, assets, natives and game directories. The selected private Java runtime has a restricted DLL search path; system Java and user PATH are not inherited.\n\nValidated on Windows with real Java 8, 17 and 21, including the official Minecraft 1.8 LWJGL Java/native binding. Launch argument regression passed for all 103 pinned stable versions. Existing worlds, players, instances and settings are preserved.\n\nFull gameplay acceptance on the user's Windows PC remains pending. This is a beta, not certification of gameplay for all versions. Close active Minecraft sessions before applying the update.\n",
-  "pub_date": "2026-10-17T00:05:04.476Z",
+  "version": "0.2.3",
+  "notes": "SakuraLauncher 0.2.3 beta\n\nAdds configurable Sakura, Sakura Night and Angelic appearances, wallpaper selection, compact account controls, and an expanded Sakura Studio skin and model editing workspace.\n\nImproves Java profile and content workflows, including the supported Fabric + Iris integration and external JAR installer flow. Third-party mods and loaders remain subject to their own provenance and compatibility.\n\nThe macOS Intel and Windows x64 release packages were built locally from the same source revision. The Windows binaries were cross-compiled on macOS; this packaging run does not count as native Windows execution. The user previously confirmed the preview on macOS and Windows, including Fabric + Iris on Windows. This beta release still needs the newly published setup and update packages checked on target devices. Back up important worlds before testing.",
+  "pub_date": "2026-10-20T06:09:11.004Z",
   "platforms": {
     "darwin-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUTGkweTdFWUJlMkJRd1BVcG5vOVJoSk9UYWVOZ3grcVhHZ1ZVUFRoQTZjTHkvUkQ0L3U1SlVUdlAwZW10bEgzZWhiNnQwb2ZxZGt4ZjlBVmtOalpUa1JpU0duRWIyN3drPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyMTc4NjcwCWZpbGU6U2FrdXJhTGF1bmNoZXIuYXBwLnRhci5negl2ZXJzaW9uOjAuMi4yCmtVNjdhV1hQZk9ZV2twK0U2TVdKSlBxL3Y4MTZsbTRpclZYL0Ezck4zNi82bEJpaVdOWXV1dkVNaFVBU0lIWm5QZUhqMFBUc2N5TEFHNFQrdEd2U0N3PT0K",
-      "url": "https://github.com/alphaisrllycool/Sakura-Releases/releases/download/launcher-v0.2.2/SakuraLauncher.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUTGkweTdFWUJlMkNZMWZ6Qk9DY3plZDFnTDZUMzJhTFhPUUJoV2tvNUphT2RsYkpOMjBGY0xDUzJQT3pwcEQzclBGNWlTaW11LzV6alFhdHpzTzFuajcyNGZFM2FjVEFRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNDc0ODQ3CWZpbGU6U2FrdXJhTGF1bmNoZXIuYXBwLnRhci5negl2ZXJzaW9uOjAuMi4zCjBDY0UxYzBZWVZMZkFDTDc1bloySkhWUk9PS085VDlXWnNscUZzTzFqWmdJQmxtS29taDZ2K2tEbnNkRnp3NlFMUlhwODYvZlVaOE9ONi9YYmhsS0JBPT0K",
+      "url": "https://github.com/alphaisrllycool/Sakura-Releases/releases/download/launcher-v0.2.3/SakuraLauncher.app.tar.gz"
     },
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUTGkweTdFWUJlMkh6YkZuK0lpb2ZHNEU4UXJpUk9yUVkrRmFpY0s0OWlMVFhHZUpnZnI1aDlQdWZOVzJDZmNhT20yL2lMUGtKNk9tU2pWVUZoOFdWd1hjZzJXeS82aXdZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyMTc4OTkwCWZpbGU6U2FrdXJhTGF1bmNoZXJfMC4yLjJfeDY0LXNldHVwLmV4ZQl2ZXJzaW9uOjAuMi4yClc1bU1tVVduWHhBcnY1eGJMNHJxYVMrNzNGOUNJMUtSdEFYdXptNGl5eml4a1F0WE1SeGNVUll6VnlCME4rZ3cxZjJPTy9FcGV3RW9wSWZwQ3FwWERnPT0K",
-      "url": "https://github.com/alphaisrllycool/Sakura-Releases/releases/download/launcher-v0.2.2/SakuraLauncher_0.2.2_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUTGkweTdFWUJlMkNteDRXNDFablh2NkVJVjJuZzJGbnhieUlYVGVXN05EcktCVXh6VkFRdVVGbWpkSlpGSVNHNFBKZ0xkN0NzazNpdEMwUCsvTHlPZ3ozVVAyY1llT1F3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNDc1NTAyCWZpbGU6U2FrdXJhTGF1bmNoZXJfMC4yLjNfeDY0LXNldHVwLmV4ZQl2ZXJzaW9uOjAuMi4zCmp4cFJwT2Uwd2JzenF6UTM4NHhLQ092MVBpdjVFTmR1Z0YxdDNtZklmYVdTL2g3Z3psTExBbmwvZHpDN243dStwVzI0YUlmMWtqZXd6bTd0aHh0VkJRPT0K",
+      "url": "https://github.com/alphaisrllycool/Sakura-Releases/releases/download/launcher-v0.2.3/SakuraLauncher_0.2.3_x64-setup.exe"
     }
   }
 }
