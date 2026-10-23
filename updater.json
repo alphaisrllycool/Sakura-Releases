@@ -1,15 +1,15 @@
 {
-  "version": "0.2.3",
-  "notes": "SakuraLauncher 0.2.3 beta\n\nAdds configurable Sakura, Sakura Night and Angelic appearances, wallpaper selection, compact account controls, and an expanded Sakura Studio skin and model editing workspace.\n\nImproves Java profile and content workflows, including the supported Fabric + Iris integration and external JAR installer flow. Third-party mods and loaders remain subject to their own provenance and compatibility.\n\nThe macOS Intel and Windows x64 release packages were built locally from the same source revision. The Windows binaries were cross-compiled on macOS; this packaging run does not count as native Windows execution. The user previously confirmed the preview on macOS and Windows, including Fabric + Iris on Windows. This beta release still needs the newly published setup and update packages checked on target devices. Back up important worlds before testing.",
-  "pub_date": "2026-10-20T06:09:11.004Z",
+  "version": "0.2.4",
+  "notes": "Sakura 0.2.4 fixes stale reservations left by interrupted Minecraft sessions, which could block launching or installing versions. The launcher now reconciles interrupted sessions at startup and exposes recovery in Settings > Diagnostics. If the old launcher cannot apply the update, use the platform repair package; do not delete your player data, profiles or worlds. Some old records may require a system restart. Includes Microsoft sign-in callback and installer fixes. Sakura's Minecraft Services access remains pending; this release does not claim that approval. This patch frees stale session reservations but does not repair already damaged world files.",
+  "pub_date": "2026-10-23T03:36:13.330Z",
   "platforms": {
     "darwin-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUTGkweTdFWUJlMkNZMWZ6Qk9DY3plZDFnTDZUMzJhTFhPUUJoV2tvNUphT2RsYkpOMjBGY0xDUzJQT3pwcEQzclBGNWlTaW11LzV6alFhdHpzTzFuajcyNGZFM2FjVEFRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNDc0ODQ3CWZpbGU6U2FrdXJhTGF1bmNoZXIuYXBwLnRhci5negl2ZXJzaW9uOjAuMi4zCjBDY0UxYzBZWVZMZkFDTDc1bloySkhWUk9PS085VDlXWnNscUZzTzFqWmdJQmxtS29taDZ2K2tEbnNkRnp3NlFMUlhwODYvZlVaOE9ONi9YYmhsS0JBPT0K",
-      "url": "https://github.com/alphaisrllycool/Sakura-Releases/releases/download/launcher-v0.2.3/SakuraLauncher.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUTGkweTdFWUJlMkJWWjlmRkRlaXFiTG8ra1hCTFBqa0JsRUNQTlFPVkRCNG8zLzZsV1NISjRsb3lGN3BQTlRxZTUzby9PWEhhalBRWG1wOEo4Q3ZyVG05enhOMXY2bkFRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNzI2NTE3CWZpbGU6U2FrdXJhTGF1bmNoZXIuYXBwLnRhci5negl2ZXJzaW9uOjAuMi40ClF4YUYwRzJCWUh2TXFHSEZOWk5pZHcxZkhobUtvdTFRemM4R3p2Si9ibFhSd3J3RnhwM2xPb1Q3WHdJbWluK0UzVzFuQ2dJVzUvY2JkdFFEMk9rVkN3PT0K",
+      "url": "https://github.com/alphaisrllycool/Sakura-Releases/releases/download/launcher-v0.2.4/SakuraLauncher.app.tar.gz"
     },
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUTGkweTdFWUJlMkNteDRXNDFablh2NkVJVjJuZzJGbnhieUlYVGVXN05EcktCVXh6VkFRdVVGbWpkSlpGSVNHNFBKZ0xkN0NzazNpdEMwUCsvTHlPZ3ozVVAyY1llT1F3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNDc1NTAyCWZpbGU6U2FrdXJhTGF1bmNoZXJfMC4yLjNfeDY0LXNldHVwLmV4ZQl2ZXJzaW9uOjAuMi4zCmp4cFJwT2Uwd2JzenF6UTM4NHhLQ092MVBpdjVFTmR1Z0YxdDNtZklmYVdTL2g3Z3psTExBbmwvZHpDN243dStwVzI0YUlmMWtqZXd6bTd0aHh0VkJRPT0K",
-      "url": "https://github.com/alphaisrllycool/Sakura-Releases/releases/download/launcher-v0.2.3/SakuraLauncher_0.2.3_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUTGkweTdFWUJlMkRGRG5VUDBrL2dETXljNCtuVi9MUk1iNzFsa0Vzb3Zic3ZxNUFQVUJDYWhlZlJiMmo2TE44TmRoSFhDbzd4aFF2eTdCbnNRSnlyM3N0SjREUVhoeGdvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNzI1MTU1CWZpbGU6U2FrdXJhTGF1bmNoZXJfMC4yLjRfeDY0LXNldHVwLmV4ZQl2ZXJzaW9uOjAuMi40CnJZaWpucDFiVmlpanUrNEY1dWZINldIclZ6QlZzc2F4M01NcXRNV2pGYWRMeVU2TDZZVTJpOEs3VjFmWDVkOUptS1dXMkY3YlZpQ1RtZ1V0SUxrTEN3PT0K",
+      "url": "https://github.com/alphaisrllycool/Sakura-Releases/releases/download/launcher-v0.2.4/SakuraLauncher_0.2.4_x64-setup.exe"
     }
   }
 }
