@@ -1,31 +1,32 @@
 # SakuraLauncher releases
 
-Public distribution repository for SakuraLauncher and Sakura Setup.
-The application source is maintained separately in a private repository.
+Public distribution repository for SakuraLauncher and Sakura Setup. The application source is maintained separately in a private repository.
+
+## Sakura 0.2.4 beta
+
+The public beta is available now.
+
+- [Launcher update packages and recovery downloads](https://github.com/alphaisrllycool/Sakura-Releases/releases/tag/launcher-v0.2.4)
+- [Windows setup and macOS installer DMG](https://github.com/alphaisrllycool/Sakura-Releases/releases/tag/setup-v0.2.4)
+- [All releases](https://github.com/alphaisrllycool/Sakura-Releases/releases)
+
+Windows x64 and macOS Intel are provided. Apple Silicon is not included. The Windows build was cross-compiled on macOS; native Windows install, repair, and update acceptance is still pending. Microsoft account access to Minecraft Services is also pending its separate authorization and real-account test.
+
+The macOS DMG is not signed with an Apple Developer ID or notarized, and the Windows setup is not Authenticode-signed. Some antivirus vendors have flagged the setup; that review is unresolved. Sakura has not verified those detections as false positives. Do not disable Gatekeeper, Defender, or other security protections to install it.
+
+If an existing installation cannot update because an interrupted session blocks its old updater, use the platform-specific recovery instructions and files in the launcher release. Preserve your Minecraft worlds, profiles, mods, and account data. Do not uninstall with data removal.
 
 ## Downloads
 
-Installers and update packages appear on the [Releases page](https://github.com/alphaisrllycool/Sakura-Releases/releases) after validation. If no release is listed, the first distribution build is still being prepared.
+- **Windows x64:** use `SakuraSetup-x64.exe` for normal setup. The launcher release also includes the signed updater package and recovery files.
+- **macOS Intel:** use `SakuraLauncher_0.2.4_macos-x64.dmg`. The launcher release includes the signed updater package and a manual recovery archive.
 
-- Windows x64: use **SakuraSetup-x64.exe** for normal installation.
-- macOS Intel: use the SakuraLauncher Installer DMG and copy the application to Applications.
-- Apple Silicon is not yet physically validated.
-
-Setup downloads a verified launcher package and prepares Minecraft Java and a private Java runtime. Minecraft and Java are obtained from their respective providers, not redistributed in this repository.
+Setup downloads verified launcher components and prepares Minecraft Java and a private Java runtime. Minecraft and Java are obtained from their respective providers; this repository does not redistribute them. Check each release's `SHA256SUMS.txt` and signature files when verifying downloads.
 
 ## Updates
 
-A new source-code commit does not trigger an application update. Updates are offered only after a versioned release and its signed beta catalog are published. The launcher asks before downloading and applying an update.
+The launcher checks the signed beta catalog and asks before downloading and applying an update. An unavailable feed does not block use of the installed launcher. The current signed beta channel is [`channels/beta.json`](https://raw.githubusercontent.com/alphaisrllycool/Sakura-Releases/main/channels/beta.json). The immutable `launcher-vX.Y.Z` tag contains that version's `updater.json`.
 
-`channels/beta.json` is the signed channel catalog. Each immutable
-`launcher-vX.Y.Z` tag contains that release's `updater.json`. Package signatures
-and SHA256SUMS accompany the downloadable artifacts. Do not replace published
-assets; corrections receive a new version.
+Sakura updater/catalog signatures verify package integrity and origin within Sakura's release system. They are separate from Apple notarization and Windows code-signing. Do not replace published assets; corrections receive a new version. No Microsoft credentials, private signing keys, user data, or Minecraft game files belong in this repository.
 
-Update signatures verify package integrity and origin within Sakura's release
-system. They are separate from Apple notarization and Windows code-signing.
-Initial packages are local-testing beta builds; do not disable operating-system
-security protections to install them.
-
-No Microsoft credentials, private signing keys, user data or Minecraft game
-files belong in this repository.
+Sakura 0.2.4 is a beta. Review the release notes and limitations before installing.
