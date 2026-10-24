@@ -1,15 +1,15 @@
 {
-  "version": "0.2.4",
-  "notes": "Sakura 0.2.4 fixes stale reservations left by interrupted Minecraft sessions, which could block launching or installing versions. The launcher now reconciles interrupted sessions at startup and exposes recovery in Settings > Diagnostics. If the old launcher cannot apply the update, use the platform repair package; do not delete your player data, profiles or worlds. Some old records may require a system restart. Includes Microsoft sign-in callback and installer fixes. Sakura's Minecraft Services access remains pending; this release does not claim that approval. This patch frees stale session reservations but does not repair already damaged world files.",
-  "pub_date": "2026-10-23T03:36:13.330Z",
+  "version": "0.2.5",
+  "notes": "Sakura 0.2.5 improves recovery of interrupted Minecraft sessions so stale reservations no longer block launching or installing versions. Includes Microsoft sign-in callback and installer fixes. If the old launcher cannot apply the update, use the platform repair package; do not delete player data, profiles, mods, or worlds. This release can reconcile stale session reservations but cannot repair world files already damaged by a power loss. Windows download, installation, and Minecraft gameplay were confirmed by the owner. macOS updater signatures and DMGs were verified, but native installation acceptance is pending. The macOS installer is not notarized or Developer ID signed; the Windows setup has no Authenticode signature. Tauri updater signatures remain verified. Minecraft Services access approval is still pending; Microsoft account login does not imply Minecraft Services approval.",
+  "pub_date": "2026-10-24T14:54:41.303Z",
   "platforms": {
     "darwin-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUTGkweTdFWUJlMkJWWjlmRkRlaXFiTG8ra1hCTFBqa0JsRUNQTlFPVkRCNG8zLzZsV1NISjRsb3lGN3BQTlRxZTUzby9PWEhhalBRWG1wOEo4Q3ZyVG05enhOMXY2bkFRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNzI2NTE3CWZpbGU6U2FrdXJhTGF1bmNoZXIuYXBwLnRhci5negl2ZXJzaW9uOjAuMi40ClF4YUYwRzJCWUh2TXFHSEZOWk5pZHcxZkhobUtvdTFRemM4R3p2Si9ibFhSd3J3RnhwM2xPb1Q3WHdJbWluK0UzVzFuQ2dJVzUvY2JkdFFEMk9rVkN3PT0K",
-      "url": "https://github.com/alphaisrllycool/Sakura-Releases/releases/download/launcher-v0.2.4/SakuraLauncher.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUTGkweTdFWUJlMk1Edkl0NVRrR2ZGMVpmS0FxL3RXUjN0NDY1TEs0c2ZFZUJOTVpXalJrbGJmblVUSDBsajlqYnpqaVErQ0lvcjB2ZEdLbTN5WDViL0lETmtaUHdWdVF3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyODIwMzA3CWZpbGU6U2FrdXJhTGF1bmNoZXIuYXBwLnRhci5negl2ZXJzaW9uOjAuMi41CnhySnAzekhPR0NRYTdkMDl6aVRFaFRHUDVSVTBCVHM2Y3JFR0pPV0JhcWlOanE4RmI5aUxuSjk1RERMYlFrNThGOVZhRWFTQXlKU1ljM0RvT1ZCWEFnPT0K",
+      "url": "https://github.com/alphaisrllycool/Sakura-Releases/releases/download/launcher-v0.2.5/SakuraLauncher_0.2.5_macos-x64.app.tar.gz"
     },
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUTGkweTdFWUJlMkRGRG5VUDBrL2dETXljNCtuVi9MUk1iNzFsa0Vzb3Zic3ZxNUFQVUJDYWhlZlJiMmo2TE44TmRoSFhDbzd4aFF2eTdCbnNRSnlyM3N0SjREUVhoeGdvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNzI1MTU1CWZpbGU6U2FrdXJhTGF1bmNoZXJfMC4yLjRfeDY0LXNldHVwLmV4ZQl2ZXJzaW9uOjAuMi40CnJZaWpucDFiVmlpanUrNEY1dWZINldIclZ6QlZzc2F4M01NcXRNV2pGYWRMeVU2TDZZVTJpOEs3VjFmWDVkOUptS1dXMkY3YlZpQ1RtZ1V0SUxrTEN3PT0K",
-      "url": "https://github.com/alphaisrllycool/Sakura-Releases/releases/download/launcher-v0.2.4/SakuraLauncher_0.2.4_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUTGkweTdFWUJlMkwyWlRweHRZZ0kwQWdrd09GejNZMCtnSUhhdmlKdnhZVWxUSzRndlhSR0lrZ0RsOFJQNG1PT3V6OTVuWWlvQzBnSy96dnlETzNON2NWbFVlUTFsaWcwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyODQ4OTM2CWZpbGU6U2FrdXJhTGF1bmNoZXJfMC4yLjVfeDY0LXNldHVwLmV4ZQl2ZXJzaW9uOjAuMi41Cm1DQmFqcnNNNkt3Z3VEL2dCcjdqRkR5dmhheFNRMVM2azlVVWRCcWtMbHJlc1JvM3JMclJIN3dGWVJ5TmNrLzhhbEV4R3ZJSDY1d05VamRoMURLbURnPT0K",
+      "url": "https://github.com/alphaisrllycool/Sakura-Releases/releases/download/launcher-v0.2.5/SakuraLauncher_0.2.5_x64-setup.exe"
     }
   }
 }
